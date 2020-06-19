@@ -26,6 +26,7 @@ provider "aws" {
 # RESOURCES
 ####################
 
-resource "aws_sns_topic" "user_updates" {
-  name = "user-updates-topic"
+resource "aws_sns_topic" "website_alerting" {
+  name = "website-alerting-topic"
 }
+
